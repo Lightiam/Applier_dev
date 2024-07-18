@@ -1,8 +1,9 @@
 {
   "name": "@my-new-service/server",
   "private": true,
+  "main": "dist/main.js",
   "scripts": {
-    "start": "nest start",
+    "start": "node dist/main.js",
     "start:watch": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "build": "nest build",
