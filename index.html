@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Pally Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto">
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="bg-purple-800 text-white w-64 min-h-screen py-4 flex flex-col">
+            <div class="flex items-center justify-center h-12">
+                <h1 class="text-lg font-bold">Reset Thread</h1>
+            </div>
+            <ul class="mt-6">
+                <li class="py-2 px-4 hover:bg-purple-700 cursor-pointer">Dark Mode</li>
+                <li class="py-2 px-4 hover:bg-purple-700 cursor-pointer">OpenAI Discord</li>
+                <li class="py-2 px-4 hover:bg-purple-700 cursor-pointer">Updates & FAQ</li>
+                <li class="py-2 px-4 hover:bg-purple-700 cursor-pointer">Log out</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 bg-purple-50 p-6">
+            <div class="grid grid-cols-3 gap-4">
+                <!-- Examples -->
+                <div class="bg-purple-100 p-4 rounded-lg shadow-purple-lg">
+                    <h2 class="text-xl font-bold mb-4 text-purple-700">Examples</h2>
+                    <ul class="space-y-2">
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">"Explain quantum computing in simple terms" →</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">"Got any creative ideas for a 10 year old's birthday?" →</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">"How do I make an HTTP request in Javascript?" →</li>
+                    </ul>
+                </div>
+
+                <!-- Capabilities -->
+                <div class="bg-purple-100 p-4 rounded-lg shadow-purple-lg">
+                    <h2 class="text-xl font-bold mb-4 text-purple-700">Capabilities</h2>
+                    <ul class="space-y-2">
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">Remembers what user said earlier in the conversation</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">Allows user to provide follow-up corrections</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">Trained to decline inappropriate requests</li>
+                    </ul>
+                </div>
+
+                <!-- Limitations -->
+                <div class="bg-purple-100 p-4 rounded-lg shadow-purple-lg">
+                    <h2 class="text-xl font-bold mb-4 text-purple-700">Limitations</h2>
+                    <ul class="space-y-2">
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">May occasionally generate incorrect information</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">May occasionally produce harmful instructions or biased content</li>
+                        <li class="p-3 bg-purple-50 rounded-lg border border-purple-200">Limited knowledge of world and events after 2021</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="mt-6 bg-purple-100 p-4 rounded-lg shadow-purple-lg">
+                <p class="text-purple-700 text-sm text-center">
+                    Free Research Preview: ChatGPT is optimized for dialogue. Our goal is to make AI systems more natural and safe to interact with, and your feedback will help us improve our systems and make them safer.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
