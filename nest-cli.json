@@ -1,6 +1,7 @@
 {
   "sourceRoot": "src",
   "compilerOptions": {
+    "outDir": "dist",
     "assets": [
       {
         "include": "swagger/**/*"
